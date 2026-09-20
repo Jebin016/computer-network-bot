@@ -125,7 +125,7 @@ def chat():
     try:
         # Call Gemini model via the official google-genai SDK
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model='gemini-3.5-flash',
             contents=user_message,
             config=types.GenerateContentConfig(
                 system_instruction=NETWORK_SYSTEM_PROMPT,
