@@ -56,11 +56,11 @@ HTML_TEMPLATE = """
 <body>
     <div id="chat-container">
         <div id="chat-header">
-            <span>🌐 NetExpert - Computer Networks Tutor</span>
-            <small style="font-size: 0.8rem; opacity: 0.8;">Localhost Server</small>
+            <span>🌐Computer Networks Tutor</span>
+            <small style="font-size: 0.8rem; opacity: 0.8;">CN_BOT</small>
         </div>
         <div id="chat-box">
-            <div class="message bot">Hello! I am <b>NetExpert</b>. Ask me any question about Computer Networks (OSI Model, TCP/IP, Subnetting, Routing Protocols, DNS, HTTP, Security, etc.)!</div>
+            <div class="message bot">Hello! I am <b>CN_BOT</b>. Ask me any question about Computer Networks (OSI Model, TCP/IP, Subnetting, Routing Protocols, DNS, HTTP, Security, etc.)!</div>
         </div>
         <form id="input-form">
             <input type="text" id="user-input" placeholder="e.g., Explain the difference between TCP and UDP with examples..." required autocomplete="off">
