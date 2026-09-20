@@ -129,7 +129,7 @@ def chat():
             contents=user_message,
             config=types.GenerateContentConfig(
                 system_instruction=NETWORK_SYSTEM_PROMPT,
-                temperature=0.3 # Lower temperature for higher factual accuracy
+                temperature=0.2 # Lower temperature for higher factual accuracy
             )
         )
         return jsonify({"reply": response.text})
